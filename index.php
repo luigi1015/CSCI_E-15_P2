@@ -11,7 +11,7 @@
 		<?php require 'logic.php'; ?>
 	</head>
 	<body>
-		<h1>xkcd Password Generator</h1>
+		<h1>Jeff's xkcd Password Generator</h1>
 		<div id="password"><?php echo getXkcdRandomPassword($numWordsInput,$addNumberInput,$addSymbolInput) ?></div>
 		<br>
 		<form method='POST' action='index.php'>
