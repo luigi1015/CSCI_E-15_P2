@@ -34,10 +34,6 @@
 		global $error;
 		$symbols = array('!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '=');
 
-		echo "NumWords: " . $numWords . "<br>";
-		echo "addNumber: " . $addNumber . "<br>";
-		echo "addSymbol: " . $addSymbol . "<br>";
-
 		$password = "";
 		
 		if( is_numeric($numWords) === false )
@@ -54,11 +50,11 @@
 			{
 				if( $i == 0 )
 				{
-					$password = $password . $words[rand(0, count($words))];
+					$password = $password . $words[rand(0, count($words)-1)];
 				}
 				else
 				{
-					$password = $password . '-' . $words[rand(0, count($words))];
+					$password = $password . '-' . $words[rand(0, count($words)-1)];
 				}
 			}
 		}
@@ -70,7 +66,7 @@
 		
 		if( $addSymbol !== "0" )
 		{
-			$password = $password . $symbols[rand(0, count($symbols))];
+			$password = $password . $symbols[rand(0, count($symbols)-1)];
 		}
 		
 		return $password;
