@@ -1,7 +1,7 @@
 # CSCI_E-15_P2
 Project 2 for class CSCI E-15
 
-Project Title: P1: Jeff's xkcd Password Generator
+Project Title: Jeff's xkcd Password Generator
 
 Live URL: http://p2.jeffcrone.me/
 
