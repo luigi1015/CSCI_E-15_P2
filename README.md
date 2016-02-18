@@ -8,4 +8,4 @@ Live URL: http://p2.jeffcrone.me/
 Project Description:
 This just creates a random password according to the xkcd password generation rules.
 
-Screencast Demo: TBD
+Screencast Demo: https://youtu.be/2wMhlij_qAI
