@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<h1>xkcd Password Generator</h1>
-		<div><?php echo getXkcdRandomPassword($numWordsInput,$addNumberInput,$addSymbolInput) ?></div>
+		<div id="password"><?php echo getXkcdRandomPassword($numWordsInput,$addNumberInput,$addSymbolInput) ?></div>
 		<br>
 		<form method='POST' action='index.php'>
 			Number of words: <input type="number" name="numWords" min="0" max="10" value="4">
